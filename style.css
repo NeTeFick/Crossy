@@ -1,0 +1,168 @@
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Anonymous Pro";
+  src: url(fonts/AnonymousPro-Regular.ttf);
+}
+
+h1 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 56px;
+}
+
+h2 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 48px;
+}
+
+h3 {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 26px;
+}
+
+p {
+  font-family: "Anonymous Pro", sans-serif;
+  font-size: 14px;
+}
+
+img {
+  width: 370px;
+}
+
+header {
+  background: #FFFFFF;
+  padding: 30px 0px 16px;
+  font-family: Anonymous Pro;
+  font-size: 20px;
+  font-weight: 700px;
+  border-bottom: 1px solid #A1A6B4;
+}
+
+.header__all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1161px;
+  margin: auto;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+}
+
+
+.socials__link {
+  color: #000000;
+  text-decoration: none;
+  font-family: 'Anonymous Pro', monospace;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 24px;
+}
+
+.header__logo img {
+  width: 212.14px;
+}
+
+
+
+.subtitle {
+  color: #121723;
+  font-size: 48px;
+  font-weight: 500;
+  margin: 24px auto;
+  font-family: 'IBM Plex Mono', monospace;
+}
+
+body {
+  background: #F1F1F1;
+}
+
+
+.container_crossy {
+  display: flex;
+  align-items: flex-start;
+  gap: 24px;
+  flex-wrap: wrap;
+}
+
+.container {
+  display: inline-block;
+  width: 371px;
+}
+
+.container__image {
+  width: 371px;
+  height: 254px;
+  background-color: #FFFFFF;
+  border-radius: 12px 12px 0px 0px;
+}
+
+.container__word {
+  background-color: #FFFFFF;
+  padding: 32px 24px 32px 24px;
+  border-radius: 0px 0px 12px 12px;
+}
+
+.container__title{
+  margin: 0px 0px 12px 0px;
+  color: var(--black, #121723);
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 26px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+
+.container__text{
+  font-family: 'Anonymous Pro', monospace;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  margin: 0px;
+}
+
+.width__cointainers {
+  max-width: 1161px;
+  margin: auto;
+}
+
+footer {
+  margin-top: 25px;
+  background-color: #121723;
+  height: 142px;
+}
+
+.footer__all {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1161px;
+  margin: 0 auto;
+  height: 50%;
+  border-bottom: 1px solid rgba(230, 232, 236, 0.40);
+}
+
+.footer__socials__link {
+  color: #FFF;
+  text-decoration: none;
+  font-family: Anonymous Pro;
+  font-weight: 700;
+  font-size: 20px;
+  margin-right: 24px;
+}
+
+.footer__copirights {
+  font-family: 'Anonymous Pro', monospace;
+  text-align: center;
+  color: #A1A6B4;
+  font-weight: 700;
+  font-size: 16px;
+  margin-top: 18px;
+}
