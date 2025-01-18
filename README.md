@@ -1,1 +1,1 @@
-link: https://fluffy-cendol-b44f57.netlify.app/
+link: https://cross-and-point.netlify.app
